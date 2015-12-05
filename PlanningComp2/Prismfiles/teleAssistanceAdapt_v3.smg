@@ -50,65 +50,65 @@ const int SV_FAIL_ID; //set to -1 for initial service selection
 const MAX_SV = 10; //overall service info
 
 //alarm service info - id
-const int SV_ALARM1_ID = 1;
-const int SV_ALARM2_ID = 2;
-const int SV_ALARM3_ID = 3;
+const int SV_ALARM1_ID; // = 1;
+const int SV_ALARM2_ID; // = 2;
+const int SV_ALARM3_ID; // = 3;
 
 //alarm service info - response time
-const int SV_ALARM1_RT = 11; 
-const int SV_ALARM2_RT = 9;
-const int SV_ALARM3_RT = 3;
+const int SV_ALARM1_RT; // = 11; 
+const int SV_ALARM2_RT; // = 9;
+const int SV_ALARM3_RT; // = 3;
 
 //alarm service info - cost
-const double SV_ALARM1_CS = 4.1; 
-const double SV_ALARM2_CS = 2.5;
-const double SV_ALARM3_CS = 6.8;
+const double SV_ALARM1_CS; // = 4.1; 
+const double SV_ALARM2_CS; // = 2.5;
+const double SV_ALARM3_CS; // = 6.8;
 
 //alarm service info - success rate
-const double SV_ALARM1_FR = 0.11; 
-const double SV_ALARM2_FR = 0.04;
-const double SV_ALARM3_FR = 0.18;
+const double SV_ALARM1_FR; // = 0.11; 
+const double SV_ALARM2_FR; // = 0.04;
+const double SV_ALARM3_FR; // = 0.18;
 
 //medical service info - id
-const int SV_MEDIC1_ID = 4; 
-const int SV_MEDIC2_ID = 5;
-const int SV_MEDIC3_ID = 6;
-const int SV_MEDIC4_ID = 7;
-const int SV_MEDIC5_ID = 8;
+const int SV_MEDIC1_ID; // = 4; 
+const int SV_MEDIC2_ID; // = 5;
+const int SV_MEDIC3_ID; // = 6;
+const int SV_MEDIC4_ID; // = 7;
+const int SV_MEDIC5_ID; // = 8;
 
 //medical service info - response time
-const int SV_MEDIC1_RT = 22; 
-const int SV_MEDIC2_RT = 27;
-const int SV_MEDIC3_RT = 31;
-const int SV_MEDIC4_RT = 29;
-const int SV_MEDIC5_RT = 20;
+const int SV_MEDIC1_RT; // = 22; 
+const int SV_MEDIC2_RT; // = 27;
+const int SV_MEDIC3_RT; // = 31;
+const int SV_MEDIC4_RT; // = 29;
+const int SV_MEDIC5_RT; // = 20;
 
 //medical service info - cost
-const double SV_MEDIC1_CS = 9.8; 
-const double SV_MEDIC2_CS = 8.9;
-const double SV_MEDIC3_CS = 9.3;
-const double SV_MEDIC4_CS = 7.3;
-const double SV_MEDIC5_CS = 11.9;
+const double SV_MEDIC1_CS; // = 9.8; 
+const double SV_MEDIC2_CS; // = 8.9;
+const double SV_MEDIC3_CS; // = 9.3;
+const double SV_MEDIC4_CS; // = 7.3;
+const double SV_MEDIC5_CS; // = 11.9;
 
 //medical service info - success rate
-const double SV_MEDIC1_FR = 0.12; 
-const double SV_MEDIC2_FR = 0.07;
-const double SV_MEDIC3_FR = 0.18;
-const double SV_MEDIC4_FR = 0.25;
-const double SV_MEDIC5_FR = 0.05;
+const double SV_MEDIC1_FR; // = 0.12; 
+const double SV_MEDIC2_FR; // = 0.07;
+const double SV_MEDIC3_FR; // = 0.18;
+const double SV_MEDIC4_FR; // = 0.25;
+const double SV_MEDIC5_FR; // = 0.05;
 
 //drug service info
-const int    SV_DRUG1_ID = 9;
-const int    SV_DRUG1_RT = 1;
-const double SV_DRUG1_CS = 0.1;
-const double SV_DRUG1_FR = 0.01;
-const int    SV_DRUG1_OP = 1;
+const int    SV_DRUG1_ID; // = 9;
+const int    SV_DRUG1_RT; // = 1;
+const double SV_DRUG1_CS; // = 0.1;
+const double SV_DRUG1_FR; // = 0.01;
+//const int    SV_DRUG1_OP; // = 1;
 
-const int    SV_DRUG2_ID = 10;
-const int    SV_DRUG2_RT = 1;
-const double SV_DRUG2_CS = 0.1;
-const double SV_DRUG2_FR = 0.01;
-const int    SV_DRUG2_OP = 2;
+const int    SV_DRUG2_ID; // = 10;
+const int    SV_DRUG2_RT; // = 1;
+const double SV_DRUG2_CS; // = 0.1;
+const double SV_DRUG2_FR; // = 0.01;
+//const int    SV_DRUG2_OP; // = 2;
  
 
 //======================================================

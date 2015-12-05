@@ -58,7 +58,7 @@ public class MultiPlanner {
 	String desktopPath = "H:/git/Planner/PlanningComp/";
 	String genericPath = "./";
 	String mainPath = genericPath;
-	String modelPath = mainPath+"Prismfiles/teleAssistanceAdapt_v2.smg";
+	String modelPath = mainPath+"Prismfiles/teleAssistanceAdapt_v3.smg";
 	String propPath = mainPath+"Prismfiles/propTeleAssistance.props";
 	String modelConstPath = mainPath+"IOFiles/ModelConstants.txt";
 	String propConstPath = mainPath+"IOFiles/PropConstants.txt";
@@ -76,13 +76,6 @@ public class MultiPlanner {
 	String md_goalTY = "GOAL_TY";
 	String md_serviceType = "SV_TY";
 	String md_serviceFailedId = "SV_FAIL_ID";
-	int index = 0;
-	String type = null;
-	String md_sv_id = "SV_"+type+""+index+"_ID";
-	String md_sv_rt = "SV_"+type+""+index+"_RT";
-	String md_sv_cs = "SV_"+type+""+index+"_CS";
-	String md_sv_fr = "SV_"+type+""+index+"_FR";
-	
 	
 	//Defining properties for the planner
 	private int stage;
@@ -162,18 +155,38 @@ public class MultiPlanner {
 	}
 	
 	public void setConstantsServiceProfile(int i, int rt, double cs, double fr) {
-		
-		if (i <= 3) {
-			index = i; 
+		String type = null;
+		int id = 0;
+		if(i <= 3) {
 			type = "ALARM";
+			id = i;
 		}
-		else{
-			index = i;
+		else if (i <= 8){
 			type = "MEDIC";
+			if (i == 4) id = 1;
+			if (i == 5) id = 2;
+			if (i == 6) id = 3;
+			if (i == 7) id = 4;
+			if (i == 8) id = 5;
 		}
-	
-		vm.setValue(md_sv_id, i); vm.setValue(md_sv_rt, rt);
-		vm.setValue(md_sv_cs, cs); vm.setValue(md_sv_fr, fr);
+		else if (i <= 10){
+			type = "DRUG";
+			if (i == 9) id = 1;
+			if (i == 10) id = 2;
+			
+		}
+		else
+			System.err.println("Parameters are not matched with the parameters in the model");
+		
+		String md_sv_id = "SV_"+type+""+id+"_ID";
+		String md_sv_rt = "SV_"+type+""+id+"_RT";
+		String md_sv_cs = "SV_"+type+""+id+"_CS";
+		String md_sv_fr = "SV_"+type+""+id+"_FR";
+		
+		vm.setValue(md_sv_id, i); 
+		vm.setValue(md_sv_rt, rt);
+		vm.setValue(md_sv_cs, cs); 
+		vm.setValue(md_sv_fr, fr);
 	}
 	
 	/**
@@ -195,6 +208,13 @@ public class MultiPlanner {
 		setConstantsMaxFailureRate(maxFR);
 	}
 	
+	/**
+	 * It is used in QoS requirement classes and to assign parameters for the initial stage planning
+	 * @param goalType
+	 * @param probe
+	 * @param type
+	 * @param id
+	 */
 	public void setConstantsParams(int goalType, int probe, String type, int id) {
 		setConstantsGoalType(goalType);
 		setConstantsProbe(probe);
@@ -511,12 +531,30 @@ public class MultiPlanner {
     	//1-means the adaptation stage
     	int stage = 0;
  		MultiPlanner plan = new MultiPlanner(stage); 
+ 		
+ 		//set the service profiles for alarm service
+ 		plan.setConstantsServiceProfile(1, 11, 4.0, 0.11);
+ 		plan.setConstantsServiceProfile(2, 9, 12.0, 0.04);
+		plan.setConstantsServiceProfile(3, 3, 2.0, 0.18);
+		
+		//set the service profiles for medical analysis service
+		plan.setConstantsServiceProfile(4,22,4.0,0.12);
+		plan.setConstantsServiceProfile(5,27,14.0,0.07);
+		plan.setConstantsServiceProfile(6,31,2.15,0.18);
+		plan.setConstantsServiceProfile(7,29,7.3,0.25);
+		plan.setConstantsServiceProfile(8,20,11.9,0.05);
+		
+		//set the service profiles for drug service
+		plan.setConstantsServiceProfile(9,1,2,0.01);
+		plan.setConstantsServiceProfile(10,1,2,0.01);
+		
  		Random rand = new Random();
  		int serviceType = -1;
  		for (int i=0; i < 1; i++)
  	    {
  			System.out.println("number of cycle :"+i);
  			serviceType = rand.nextInt(2);
+ 			//The goal type must be 4 that refers to multi-objective
  			plan.setConstantsTesting(4,-1,serviceType,-1,26,20,0.7);
  	    
  			plan.generate();
