@@ -56,8 +56,8 @@ public class MultiPlanner {
 	String logPath = "./myLog.txt";
 	String laptopPath = "C:/Users/USER/git/Planner/PlanningComp/";
 	String desktopPath = "H:/git/Planner/PlanningComp/";
-	String genericPath = "/";
-	String mainPath = laptopPath;
+	String genericPath = "./";
+	String mainPath = genericPath;
 	String modelPath = mainPath+"Prismfiles/teleAssistanceAdapt_v2.smg";
 	String propPath = mainPath+"Prismfiles/propTeleAssistance.props";
 	String modelConstPath = mainPath+"IOFiles/ModelConstants.txt";
@@ -252,27 +252,15 @@ public class MultiPlanner {
 	{
 		smc.setModulesFileAndPropertiesFile(modulesFile, propertiesFile);
 		smc.setGenerateStrategy(true);
+		smc.setComputeParetoSet(false);
 		
-		if(vm.getIntValueOf(md_goalTY) == 0) {
-			System.out.println("Planning is based on minimum cost");
-			resultSMG = smc.check(model, propertiesFile.getProperty(0));
-		}
-		if(vm.getIntValueOf(md_goalTY) == 1) {
-			System.out.println("Planning is based on reliability");
-			resultSMG = smc.check(model, propertiesFile.getProperty(1));
-		}
-		if(vm.getIntValueOf(md_goalTY) == 2) {
-			System.out.println("Planning is based on minimum response time");
-			resultSMG = smc.check(model, propertiesFile.getProperty(2));
-		}
-		if(vm.getIntValueOf(md_goalTY) == 3) {
-			System.out.println("Planning is based on utility function");
-			resultSMG = smc.check(model, propertiesFile.getProperty(3));
-		}
 		if(vm.getIntValueOf(md_goalTY) == 4) {
 			System.out.println("Planning is based on multiobjective");
 			resultSMG = smc.check(model, propertiesFile.getProperty(4));
+		}else{
+			System.err.println("The single objective is not supported");
 		}
+		
 	}	
     
     public void outcomefromModelChecking()
@@ -510,7 +498,7 @@ public class MultiPlanner {
  	    {
  			System.out.println("number of cycle :"+i);
  			serviceType = rand.nextInt(2);
- 			plan.setConstantsTesting(3,-1,serviceType,-1,26,20,0.7);
+ 			plan.setConstantsTesting(4,-1,serviceType,-1,26,20,0.7);
  	    
  			plan.generate();
 	  

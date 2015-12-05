@@ -1,0 +1,7700 @@
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.113 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.118 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.117762 s
+Synthesis took 0.296313 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.35400000000000004 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.14100000000000001 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.14200000000000002 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.004814 s
+Synthesis took 0.038403 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.043000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.14500000000000002 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.14500000000000002 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.004600 s
+Synthesis took 0.050775 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.054000000000000006 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.067 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.068 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.005241 s
+Synthesis took 0.037091 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.07300000000000001 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.07400000000000001 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.07400000000000001 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.004035 s
+Synthesis took 0.043616 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.056 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.07200000000000001 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.07200000000000001 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.004026 s
+Synthesis took 0.042218 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.045000000000000005 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.07200000000000001 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.07200000000000001 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.003931 s
+Synthesis took 0.026633 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.054000000000000006 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.132 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.132 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.003015 s
+Synthesis took 0.019957 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.022000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.07500000000000001 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.07500000000000001 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002662 s
+Synthesis took 0.021642 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.024 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.045000000000000005 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.045000000000000005 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.005075 s
+Synthesis took 0.024140 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.026000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.07300000000000001 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.07400000000000001 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.003447 s
+Synthesis took 0.034975 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.037000000000000005 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.047 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.047 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.025540 s
+Synthesis took 0.057749 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.060000000000000005 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.041 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.041 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.003274 s
+Synthesis took 0.021245 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.024 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.08 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.08 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002825 s
+Synthesis took 0.032761 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.034 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.038000000000000006 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.038000000000000006 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002566 s
+Synthesis took 0.030440 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.032 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.041 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.041 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002762 s
+Synthesis took 0.032150 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.034 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.082 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.082 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002873 s
+Synthesis took 0.062064 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.064 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.111 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.111 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002685 s
+Synthesis took 0.020265 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.022000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.10200000000000001 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.10200000000000001 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002134 s
+Synthesis took 0.019328 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.021 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.047 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.047 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002401 s
+Synthesis took 0.028831 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.030000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.07400000000000001 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.07400000000000001 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002345 s
+Synthesis took 0.021608 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.023000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.057 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.057 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.004051 s
+Synthesis took 0.023107 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.025 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.056 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.056 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.003861 s
+Synthesis took 0.036215 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.038000000000000006 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.048 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.048 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.009888 s
+Synthesis took 0.091798 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.094 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.063 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.063 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.004815 s
+Synthesis took 0.086936 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.08900000000000001 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.034 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.034 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002094 s
+Synthesis took 0.027966 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.030000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.033 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.033 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001751 s
+Synthesis took 0.016927 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.018000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.047 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.047 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002253 s
+Synthesis took 0.030113 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.031000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.025 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.025 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002398 s
+Synthesis took 0.066532 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.068 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.036000000000000004 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.036000000000000004 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002202 s
+Synthesis took 0.027476 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.029 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.032 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.032 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002570 s
+Synthesis took 0.027762 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.029 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.053000000000000005 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.053000000000000005 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002362 s
+Synthesis took 0.030618 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.032 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.029 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.036000000000000004 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002502 s
+Synthesis took 0.031176 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.033 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.057 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.057 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002429 s
+Synthesis took 0.057926 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.060000000000000005 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.055 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.055 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.008567 s
+Synthesis took 0.032481 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.034 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.117 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.117 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002539 s
+Synthesis took 0.029366 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.037000000000000005 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.034 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.035 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001538 s
+Synthesis took 0.016440 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.018000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.042 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.042 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002142 s
+Synthesis took 0.025483 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.028 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.028 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.028 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001678 s
+Synthesis took 0.017644 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.019000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.036000000000000004 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.036000000000000004 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001978 s
+Synthesis took 0.025144 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.026000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.023000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.024 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.004812 s
+Synthesis took 0.050715 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.053000000000000005 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.113 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.113 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.004331 s
+Synthesis took 0.028029 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.030000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.034 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.035 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002833 s
+Synthesis took 0.029014 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.030000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.033 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.033 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002135 s
+Synthesis took 0.018953 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.02 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.036000000000000004 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.036000000000000004 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002699 s
+Synthesis took 0.018662 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.02 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.038000000000000006 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.038000000000000006 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001703 s
+Synthesis took 0.017758 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.019000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.061000000000000006 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.062000000000000006 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002255 s
+Synthesis took 0.030933 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.032 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.036000000000000004 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.037000000000000005 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002299 s
+Synthesis took 0.030551 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.032 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.049 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.049 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001949 s
+Synthesis took 0.039189 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.041 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.09200000000000001 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.09200000000000001 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002142 s
+Synthesis took 0.058772 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.060000000000000005 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.063 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.063 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.004010 s
+Synthesis took 0.033692 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.036000000000000004 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.08600000000000001 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.08600000000000001 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002193 s
+Synthesis took 0.056575 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.058 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.035 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.035 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001895 s
+Synthesis took 0.020942 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.023000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.056 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.056 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001700 s
+Synthesis took 0.020820 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.022000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.059000000000000004 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.059000000000000004 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002284 s
+Synthesis took 0.031947 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.033 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.030000000000000002 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.031000000000000003 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002039 s
+Synthesis took 0.032663 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.034 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.034 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.034 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001666 s
+Synthesis took 0.063993 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.065 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.032 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.033 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002003 s
+Synthesis took 0.020162 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.021 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.035 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.035 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001426 s
+Synthesis took 0.016225 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.017 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.051000000000000004 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.051000000000000004 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001523 s
+Synthesis took 0.016877 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.018000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.025 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.025 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002013 s
+Synthesis took 0.025524 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.027000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.028 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.028 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001444 s
+Synthesis took 0.016075 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.017 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.021 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.021 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001840 s
+Synthesis took 0.027668 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.029 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.04 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.04 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001596 s
+Synthesis took 0.017289 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.03900000000000001 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.047 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.047 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001803 s
+Synthesis took 0.020249 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.021 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.026000000000000002 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.026000000000000002 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001498 s
+Synthesis took 0.016035 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.017 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.022000000000000002 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.023000000000000003 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001989 s
+Synthesis took 0.027497 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.028 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.024 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.024 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001866 s
+Synthesis took 0.026144 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.027000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.021 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.021 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001879 s
+Synthesis took 0.027282 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.028 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.025 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.025 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001624 s
+Synthesis took 0.017471 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.018000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.019000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.019000000000000003 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001717 s
+Synthesis took 0.018361 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.019000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.041 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.041 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002128 s
+Synthesis took 0.018361 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.019000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.036000000000000004 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.036000000000000004 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001645 s
+Synthesis took 0.039377 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.041 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.031000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.031000000000000003 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001738 s
+Synthesis took 0.036181 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.037000000000000005 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.030000000000000002 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.030000000000000002 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002007 s
+Synthesis took 0.019209 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.021 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.024 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.024 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001702 s
+Synthesis took 0.018695 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.019000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.023000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.024 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001986 s
+Synthesis took 0.019704 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.027000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.053000000000000005 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.053000000000000005 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002289 s
+Synthesis took 0.018270 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.019000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.047 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.047 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001796 s
+Synthesis took 0.028677 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.030000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.111 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.111 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001579 s
+Synthesis took 0.020032 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.021 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.068 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.068 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001629 s
+Synthesis took 0.024369 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.026000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.023000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.023000000000000003 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001674 s
+Synthesis took 0.025069 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.026000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.021 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.021 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001878 s
+Synthesis took 0.025901 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.026000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.05 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.05 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001740 s
+Synthesis took 0.024820 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.026000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.030000000000000002 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.031000000000000003 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001595 s
+Synthesis took 0.026519 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.027000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.048 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.049 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001772 s
+Synthesis took 0.025182 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.027000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.057 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.057 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001781 s
+Synthesis took 0.027973 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.030000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.034 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.034 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001410 s
+Synthesis took 0.017207 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.017 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.02 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.02 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001707 s
+Synthesis took 0.016844 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.018000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.019000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.019000000000000003 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001710 s
+Synthesis took 0.029452 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.030000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.052000000000000005 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.052000000000000005 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001721 s
+Synthesis took 0.020752 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.041 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.027000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.027000000000000003 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001947 s
+Synthesis took 0.029113 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.030000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.049 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.049 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001622 s
+Synthesis took 0.016554 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.018000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.022000000000000002 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.022000000000000002 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001825 s
+Synthesis took 0.036690 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.038000000000000006 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.048 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.049 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001686 s
+Synthesis took 0.025249 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.026000000000000002 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.027000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.028 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001913 s
+Synthesis took 0.027772 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.029 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.04 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.04 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.002595 s
+Synthesis took 0.027149 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.029 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.019000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.02 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001594 s
+Synthesis took 0.018300 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.019000000000000003 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 11 states
+Reachable states exploration and model construction done in 0.023000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.023000000000000003 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001648 s
+Synthesis took 0.018865 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+11
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+4 0 {0=1.0}
+5 0 {0=1.0}
+8 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+4 0 0 {0=1.0}
+5 0 0 {0=1.0}
+8 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 4 {0=1.0}
+1 0 0 5 {0=1.0}
+4 0 0 1 {0=1.0}
+5 0 0 8 {0=1.0}
+8 0 0 8 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.02 seconds.
+
+Result: true (property satisfied in the initial state)
+
+Building model...
+
+Computing reachable states... 17 states
+Reachable states exploration and model construction done in 0.027000000000000003 secs.
+Sorting reachable states list...
+
+Time for model construction: 0.028 seconds.
+
+Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+Warning: Ensure that game is controllable multichain. Not tested.
+/////////////////   NEW (DIRECT) MODEL CHECKING TASK     /////////////////////
+Property:
+	[[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
+
+initial state: 0
+operation: Strategy generation
+Strategy construction took 0.001734 s
+Synthesis took 0.027497 s
+strategy: $SU.strat-v0.1
+// Stochastic Memory Update Strategy
+start strategy
+States:
+17
+// Initial state
+InitState:
+0
+// initial distribution
+Init:
+{0=1.0}
+// next state function
+// note: only P1 states
+Next:
+// first index: current state
+// second index: current corner
+6 0 {0=1.0}
+7 0 {0=1.0}
+12 0 {0=1.0}
+// memory update function: player states
+MemUpdStates:
+// first index: current state
+// second index: current corner
+// third index: next move
+0 0 0 {0=1.0}
+1 0 0 {0=1.0}
+6 0 0 {0=1.0}
+7 0 0 {0=1.0}
+12 0 0 {0=1.0}
+// memory update function: moves
+MemUpdMoves:
+// first index: current state
+// second index: current move
+// third index: curent corner (at move)
+// fourth index: next state
+0 0 0 6 {0=1.0}
+1 0 0 7 {0=1.0}
+6 0 0 1 {0=1.0}
+7 0 0 12 {0=1.0}
+12 0 0 12 {0=1.0}
+Info:
+
+maximum C-iterations: 500
+	relative termination threshold: 0.001000
+	bounding box: 
+
+endstrategy
+
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 17 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.028 seconds.
+
+Result: true (property satisfied in the initial state)
