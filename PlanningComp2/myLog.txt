@@ -2,10 +2,10 @@
 Building model...
 
 Computing reachable states... 11 states
-Reachable states exploration and model construction done in 0.189 secs.
+Reachable states exploration and model construction done in 0.469 secs.
 Sorting reachable states list...
 
-Time for model construction: 0.195 seconds.
+Time for model construction: 0.477 seconds.
 
 Reducing multi-objective query to CNF: R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
 expr: [[R{"cost"}<=MAXCS [ S ]], [R{"reliability"}<=MAXFR [ S ]]]
@@ -17,8 +17,8 @@ Property:
 
 initial state: 0
 operation: Strategy generation
-Strategy construction took 0.066725 s
-Synthesis took 0.146063 s
+Strategy construction took 0.175995 s
+Synthesis took 0.303318 s
 strategy: $SU.strat-v0.1
 // Stochastic Memory Update Strategy
 start strategy
@@ -67,3 +67,11 @@ maximum C-iterations: 500
 
 endstrategy
 
+
+Number of states satisfying <<con>> (R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]): 11 (all in model)
+
+Property satisfied in 1 of 1 initial states.
+
+Time for model checking: 0.385 seconds.
+
+Result: true (property satisfied in the initial state)

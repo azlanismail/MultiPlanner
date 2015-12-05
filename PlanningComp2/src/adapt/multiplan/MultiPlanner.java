@@ -360,7 +360,7 @@ public class MultiPlanner {
 		int prevState = -1;
 		int curState = -1;
 		int decState = -1;
-		int count = 0;
+	
 		//skip the first line
 		read.nextLine();
 		prevState = read.nextInt();
@@ -401,16 +401,31 @@ public class MultiPlanner {
 		String inRead = readS.nextLine(); 
 		while (readS.hasNextLine()) {
 			if (inRead.equalsIgnoreCase("MemUpdMoves:")){
+				//skip four lines
+				for(int i=0; i < 4; i++)
+					readS.nextLine();
 				inData = readS.nextInt();
+				//System.out.println("inData is :"+inData);
 				//find the decision state
-				if (inData == decState){
-					//skip another two elements
-					readS.nextInt(); readS.nextInt();
-					//pick up the next element
-					choice = readS.nextInt();
-					break;
+				boolean found = false;
+				while (true){
+					if (inData == decState) {
+						//skip another two elements
+						readS.nextInt(); readS.nextInt();
+						//pick up the next element
+						choice = readS.nextInt();
+						found = true;
+						break;
+					}
+					else {
+						readS.nextLine();
+					}
+					inData = readS.nextInt();
 				}
+				//System.out.println("inData final is "+choice);
+				if (found == true) break;
 			}
+			inRead = readS.nextLine();
         }
 		readS.close();
 		System.out.println("Obtained strategy is "+choice);
@@ -498,7 +513,7 @@ public class MultiPlanner {
  		MultiPlanner plan = new MultiPlanner(stage); 
  		Random rand = new Random();
  		int serviceType = -1;
- 		for (int i=0; i < 100; i++)
+ 		for (int i=0; i < 1; i++)
  	    {
  			System.out.println("number of cycle :"+i);
  			serviceType = rand.nextInt(2);
