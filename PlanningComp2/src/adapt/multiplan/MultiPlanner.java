@@ -59,7 +59,7 @@ public class MultiPlanner {
 	String genericPath = "./";
 	String mainPath = genericPath;
 	String modelPath = mainPath+"Prismfiles/teleAssistanceAdapt_v3.smg";
-	String propPath = mainPath+"Prismfiles/propTeleAssistance.props";
+	String propPath = mainPath+"Prismfiles/propTeleAssistanceMulti.props";
 	String modelConstPath = mainPath+"IOFiles/ModelConstants.txt";
 	String propConstPath = mainPath+"IOFiles/PropConstants.txt";
 	String stratPath1 = mainPath+"IOFiles/strategyInitial";
@@ -80,7 +80,7 @@ public class MultiPlanner {
 	//Defining properties for the planner
 	private int stage;
 	
-	public Planner(int sg) {
+	public MultiPlanner(int sg) {
 		this.stage = sg;
 		initiatePlanner();
 		initializeServiceProfile();
