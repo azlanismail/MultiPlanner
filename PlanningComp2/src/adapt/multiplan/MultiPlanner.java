@@ -266,7 +266,7 @@ public class MultiPlanner {
     public void outcomefromModelChecking()
     {
     	 System.out.println("The result from model checking (SMG) is :"+ resultSMG.getResultString());
-    	 System.out.println("The outcome of the strategy is :"+smc.getStrategy());
+    	// System.out.println("The outcome of the strategy is :"+smc.getStrategy());
     }
     
     public void outcomefromModelBuilding()
@@ -397,16 +397,20 @@ public class MultiPlanner {
 		//read.useDelimiter(",");
 		int inData = -1;
 		
-		//need to skip the first two lines
-		readS.nextLine(); readS.nextLine();
+		//begin reading the first line
+		String inRead = readS.nextLine(); 
 		while (readS.hasNextLine()) {
-			 inData = readS.nextInt();
-			 //find the decision state
-			 if (inData == decState){
-				 //pick up the selected choice
-				 choice = readS.nextInt();
-				 break;
-			 }
+			if (inRead.equalsIgnoreCase("MemUpdMoves:")){
+				inData = readS.nextInt();
+				//find the decision state
+				if (inData == decState){
+					//skip another two elements
+					readS.nextInt(); readS.nextInt();
+					//pick up the next element
+					choice = readS.nextInt();
+					break;
+				}
+			}
         }
 		readS.close();
 		System.out.println("Obtained strategy is "+choice);
@@ -503,16 +507,16 @@ public class MultiPlanner {
  			plan.generate();
 	  
  			try {
- 				//plan.getAdaptStrategyfromAdv();
+ 				plan.getAdaptStrategyfromAdv();
  			} 
  			catch (IllegalArgumentException e) {
  				e.printStackTrace();
  			}
- 		//	catch (FileNotFoundException e) {
+ 			catch (FileNotFoundException e) {
  				// TODO Auto-generated catch block
- 		//		e.printStackTrace();
- 		//		System.err.println("something not right");
- 		//	}
+ 				e.printStackTrace();
+ 				System.err.println("something not right");
+ 			}
  	    }
  	}
      
