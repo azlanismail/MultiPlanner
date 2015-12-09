@@ -8,14 +8,21 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+import explicit.Distribution;
 import explicit.Model;
 import explicit.PrismExplicit;
+import explicit.SMG;
 import explicit.SMGModelChecker;
+import explicit.STPG;
+import explicit.STPGModelChecker;
+import explicit.StateModelChecker;
+import explicit.rewards.ConstructRewards;
+import explicit.rewards.SMGRewards;
 import parser.Values;
 import parser.ast.ModulesFile;
 import parser.ast.PropertiesFile;
+import parser.ast.RewardStruct;
 import prism.Prism;
-import prism.PrismComponent;
 import prism.PrismException;
 import prism.PrismFileLog;
 import prism.PrismLangException;
@@ -23,16 +30,18 @@ import prism.PrismLog;
 import prism.PrismSettings;
 import prism.Result;
 import simulator.SimulatorEngine;
+import strat.InvalidStrategyStateException;
+import strat.MemorylessDeterministicStrategy;
+import strat.Strategies;
 import strat.Strategy;
 
 
 
-public class MultiPlanner {
+public class SinglePlanner {
 
 	//Classes from Prism-games
 	PrismLog mainLog;
 	PrismExplicit prismEx;
-	PrismComponent prismCom;
 	Prism prism;
 	Values vm, vp;
 	ModulesFile modulesFile;
@@ -41,15 +50,15 @@ public class MultiPlanner {
 	Model model;
 	Result result, resultSMG;
 	Strategy strategy;
-	SMGModelChecker smc;
+	StateModelChecker smc,stpg;
 	PrismSettings ps;
 	
 	//Defining File Inputs/Outputs
 	String logPath = "./myLog.txt";
-	String laptopPath = "C:/Users/USER/git/MultiPlanner/PlanningComp2/";
-	String desktopPath = "H:/git/MultiPlanner/PlanningComp2/";
-	String linuxPath = "/home/azlani/git/MultiPlanner/PlanningComp2/";
-	String mainPath = linuxPath;
+	String laptopPath = "C:/Users/USER/git/Planner/PlanningComp/";
+	String desktopPath = "H:/git/Planner/PlanningComp/";
+	String genericPath = "./";
+	String mainPath = genericPath;
 	String modelPath = mainPath+"Prismfiles/teleAssistanceAdapt_v3.smg";
 	String propPath = mainPath+"Prismfiles/propTeleAssistanceMulti.props";
 	String modelConstPath = mainPath+"IOFiles/ModelConstants.txt";
@@ -72,7 +81,7 @@ public class MultiPlanner {
 	//Defining properties for the planner
 	private int stage;
 	
-	public MultiPlanner(int sg) {
+	public SinglePlanner(int sg) {
 		this.stage = sg;
 		initiatePlanner();
 		initializeServiceProfile();
@@ -81,16 +90,7 @@ public class MultiPlanner {
 	private void initiatePlanner(){
 		mainLog = new PrismFileLog(logPath);
         prism = new Prism(mainLog , mainLog);
-        prismEx = new PrismExplicit(mainLog, prism.getSettings());
-        prismCom = new PrismComponent();
-        
-        prismCom.setLog(mainLog);
-        prismCom.setSettings(prismEx.getSettings());
-       // prismEx = new PrismExplicit(prism.getMainLog(), prism.getSettings());
-        
-       
-       //for building and checking the model
-    	simEngine = new SimulatorEngine(prismCom,prism);
+        prismEx = new PrismExplicit(prism.getMainLog(), prism.getSettings());
         
     	//for parsing model and property file
     	try {
@@ -105,12 +105,13 @@ public class MultiPlanner {
     	vm = new Values();
     	vp = new Values();	
     	
-    	
-    
+    	//for building and checking the model
+    	simEngine = new SimulatorEngine(prismEx, prism);
     	
     	//I need to access SMGModelChecker directly to manipulate the strategy
     	try {
-			smc = new SMGModelChecker(prismCom);
+			smc = new SMGModelChecker(prismEx);
+			stpg = new STPGModelChecker(prismEx);
 		} catch (PrismException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -246,23 +247,60 @@ public class MultiPlanner {
 		//setConstantsMaxFailureRate(maxFR);
 	}
 	
+	public void setConstantsforModel(String inFile) throws PrismLangException, FileNotFoundException {
+		Scanner readMod = new Scanner(new BufferedReader(new FileReader(inFile)));
+		//read.useDelimiter(",");
+		String param = null;
+		int val = -1;
+		int count = 0;
+		while (readMod.hasNext()) {
+			 param = readMod.next();
+			 val = Integer.parseInt(readMod.next());
+			 vm.addValue(param, val);
+			 count++;
+        }
+		if (count > 0)
+			modulesFile.setUndefinedConstants(vm);
+		else
+			modulesFile.setUndefinedConstants(null);
+		
+		readMod.close();
+	}
+	
+	public void setConstantsforProperty(String inFile) throws PrismLangException, FileNotFoundException
+	{
+		Scanner readProp = new Scanner(new BufferedReader(new FileReader(inFile)));
+		String param = null;
+		int val = -1;
+		int count = 0;
+		while (readProp.hasNext()) {
+			 param = readProp.next();
+			 val = Integer.parseInt(readProp.next());
+			 vp.addValue(param, val);
+			 count++;
+        }
+		if (count > 0)
+			propertiesFile.setUndefinedConstants(vp);
+		else
+			propertiesFile.setUndefinedConstants(null);
+	}
 
 	public void buildModelbyPrismEx() throws PrismException
 	{
 		 model = prismEx.buildModel(modulesFile, simEngine);
-		// model = prism.buildModelExplicit(modulesFile);
 	}
 	
 	public void checkModelbyPrismEx() throws PrismLangException, PrismException
 	{
 		smc.setModulesFileAndPropertiesFile(modulesFile, propertiesFile);
+		stpg = smc;
+		stpg.setGenerateStrategy(true);
 		smc.setGenerateStrategy(true);
 		smc.setComputeParetoSet(false);
-		//prismCom.getSettings().set(PrismSettings.PRISM_GENERATE_STRATEGY, true);
 		
 		if(vm.getIntValueOf(md_goalTY) == 4) {
 			System.out.println("Planning is based on multiobjective");
-			resultSMG = smc.check(model, propertiesFile.getProperty(4));
+			resultSMG = smc.check(model, propertiesFile.getProperty(0));
 		}else{
 			System.err.println("The single objective is not supported");
 		}
@@ -272,7 +310,7 @@ public class MultiPlanner {
     public void outcomefromModelChecking()
     {
     	 System.out.println("The result from model checking (SMG) is :"+ resultSMG.getResultString());
-    	 //System.out.println("The outcome of the strategy is :"+smc.getStrategy());
+    	 System.out.println("The outcome of the strategy is :"+smc.getStrategy());
     }
     
     public void outcomefromModelBuilding()
@@ -515,8 +553,8 @@ public class MultiPlanner {
 
     	//0-means the initial stage
     	//1-means the adaptation stage
-    	int stage = 1;
- 		MultiPlanner plan = new MultiPlanner(stage); 
+    	int stage = 0;
+ 		SinglePlanner plan = new SinglePlanner(stage); 
  		
  		//set the service profiles for alarm service
  		plan.setConstantsServiceProfile(1, 11, 4.0, 0.11);
@@ -536,7 +574,7 @@ public class MultiPlanner {
 		
  		Random rand = new Random();
  		int serviceType = -1;
- 		for (int i=0; i < 50; i++)
+ 		for (int i=0; i < 1; i++)
  	    {
  			System.out.println("number of cycle :"+i);
  			serviceType = rand.nextInt(2);

@@ -10,19 +10,19 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/lib64/ppl"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/colt.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/commons-math3-3.3.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/epsgraphics.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/jas.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/jcommon.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/jfreechart.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/jhoafparser.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/log4j.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/lpsolve55j.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/nailgun-server.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/pepa.zip"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/ppl_java.jar"/>
-	<classpathentry kind="lib" path="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib/prism.jar"/>
+	<classpathentry kind="lib" path="colt.jar"/>
+	<classpathentry kind="lib" path="commons-math3-3.3.jar"/>
+	<classpathentry kind="lib" path="epsgraphics.jar"/>
+	<classpathentry kind="lib" path="jas.jar"/>
+	<classpathentry kind="lib" path="jcommon.jar"/>
+	<classpathentry kind="lib" path="jfreechart.jar"/>
+	<classpathentry kind="lib" path="jhoafparser.jar"/>
+	<classpathentry kind="lib" path="log4j.jar"/>
+	<classpathentry kind="lib" path="lpsolve55j.jar"/>
+	<classpathentry kind="lib" path="nailgun-server.jar"/>
+	<classpathentry kind="lib" path="ppl_java.jar"/>
+	<classpathentry kind="lib" path="prism.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_66"/>
+	<classpathentry kind="lib" path="pepa.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
