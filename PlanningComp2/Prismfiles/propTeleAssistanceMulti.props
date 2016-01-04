@@ -1,13 +1,20 @@
-const double MAXCS = 20;
-const double MAXFR = 0.7;
+const double MAXCS = 14;
+const double MAXFR = 0.25;
+const double MAXRT = 34;
 
-<<con>> R{"cost"}min=? [ F "done" ]
+<<am>> R{"cost"}min=? [ F "done" ]
 
-<<con>> R{"reliability"}min=? [ F "done" ]
+<<am>> R{"reliability"}min=? [ F "done" ]
 
-<<con>> R{"time"}min=? [ F "done" ]
+<<am>> R{"time"}min=? [ F "done" ]
 
-<<con>> R{"utilityGoal"}max=? [ F "done" ]
+<<am>> R{"utilityGoal"}max=? [ F "done" ]
 
-<<con>> R{"cost"}<=MAXCS [ S ]&R{"reliability"}<=MAXFR [ S ]
+<<am>> R{"cost"}<=MAXCS [ S ] & R{"reliability"}<=MAXFR [ S ] & R{"time"}<=MAXRT [ S ]
+
+<<am>> R{"cost"}max=? [ F "done" ]
+
+<<am>> R{"reliability"}max=? [ F "done" ]
+
+<<am>> R{"time"}max=? [ F "done" ]
 
