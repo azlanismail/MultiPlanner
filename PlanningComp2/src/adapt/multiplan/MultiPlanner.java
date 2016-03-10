@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Random;
 import java.util.Scanner;
 
+import adapt.multiplan.TimeMeasure;
 import explicit.Model;
 import explicit.PrismExplicit;
 import explicit.SMGModelChecker;
@@ -50,7 +51,7 @@ public class MultiPlanner {
 	String desktopPath = "H:/git/MultiPlanner/PlanningComp2/";
 	String linuxPath = "/home/azlani/git/MultiPlanner/PlanningComp2/";
 	String mainPath = linuxPath;
-	String modelPath = mainPath+"Prismfiles/teleAssistanceAdapt_v3.smg";
+	String modelPath = mainPath+"Prismfiles/teleAssistanceAdapt_v5.smg";
 	String propPath = mainPath+"Prismfiles/propTeleAssistanceMulti.props";
 	String modelConstPath = mainPath+"IOFiles/ModelConstants.txt";
 	String propConstPath = mainPath+"IOFiles/PropConstants.txt";
@@ -64,13 +65,20 @@ public class MultiPlanner {
 	String md_maxCS = "MAX_CS";
 	String md_maxRT = "MAX_RT";
 	String md_maxFR = "MAX_FR";
-	String md_goalTQ = "GOAL_TQ";
+	//String md_goalTQ = "GOAL_TQ";
 	String md_goalTY = "GOAL_TY";
 	String md_serviceType = "SV_TY";
 	String md_serviceFailedId = "SV_FAIL_ID";
 	String md_delay = "CUR_DELAY";
 	String md_maxDelay = "MAX_DELAY";
 	String md_minDelay = "MIN_DELAY";
+	
+	String md_retry = "RETRY";
+
+	//utility-based decision making
+	String md_wg_cs = "WG_CS"; 
+	String md_wg_rt = "WG_RT";  
+	String md_wg_fr = "WG_FR"; 
 	
 	//Defining properties for the planner
 	private int stage;
@@ -160,6 +168,16 @@ public class MultiPlanner {
 		vm.setValue(md_maxFR, maxFR);
 	}
 	
+	public void setConstantsUtilWeight(double wgCS, double wgRT, double wgFR) {
+		vm.setValue(md_wg_cs, wgCS);
+		vm.setValue(md_wg_rt, wgRT);
+		vm.setValue(md_wg_fr, wgFR);
+	}
+	
+	public void setConstantsRetry(int r) {
+		vm.setValue(md_retry, r);
+	}
+	
 	public void initializeServiceProfile(){
 		//set the service profiles for alarm service
  		setConstantsServiceProfile(1, 11, 4.0, 0.11);
@@ -234,7 +252,7 @@ public class MultiPlanner {
 	 * @param maxRT
 	 * @param maxFR
 	 */
-	public void setConstantsTesting(int goalType, int probe, int type, int id, int maxRT, double maxCS, double maxFR) {
+	public void setConstantsTesting(int goalType, int probe, int type, int id, int maxRT, double maxCS, double maxFR, int r) {
 		setConstantsGoalType(goalType);
 		setConstantsProbe(probe);
 		setConstantsServiceType(type);
@@ -242,6 +260,7 @@ public class MultiPlanner {
 		setConstantsMaxResponseTime(maxRT);
 		setConstantsMaxCost(maxCS);
 		setConstantsMaxFailureRate(maxFR);
+		setConstantsRetry(r);
 	}
 	
 	/**
@@ -551,12 +570,24 @@ public class MultiPlanner {
 		
  		Random rand = new Random();
  		int serviceType = -1;
- 		for (int i=0; i < 50; i++)
+ 		int cycle =4500;
+ 		int goalType = 4;
+ 		int retry = 1;
+ 		long time[] = new long[cycle];
+ 		TimeMeasure tm = new TimeMeasure();
+ 		
+ 		for (int i=0; i < cycle; i++)
  	    {
+ 			tm.start();
  			System.out.println("number of cycle :"+i);
  			serviceType = rand.nextInt(2);
  			//The goal type must be 4 that refers to multi-objective
- 			plan.setConstantsTesting(4,-1,serviceType,-1,26,20,0.7);
+ 			plan.setConstantsTesting(goalType,2,serviceType,-1,26,20,0.7, retry);
+ 			
+ 	 		//	if (goalType == 3) {
+ 	 				plan.setConstantsUtilWeight(0.6, 0.2, 0.2);
+ 	 		//	}
+ 	 	    
  	    
  			plan.generate();
 	  
@@ -571,7 +602,17 @@ public class MultiPlanner {
  				e.printStackTrace();
  				System.err.println("something not right");
  			}
+ 			tm.stop();
+ 			time[i] = tm.getDuration();
  	    }
+ 		
+ 		long total = 0;
+ 		for(int k=0; k < cycle; k++)
+ 			total +=time[k];
+ 		
+ 		System.out.println("total is "+total);
+ 		long avg = (total/cycle);
+ 		System.out.println("The average time is "+avg);
  	}
      
 }
