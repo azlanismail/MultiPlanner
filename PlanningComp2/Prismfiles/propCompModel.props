@@ -1,0 +1,7 @@
+const double MAXRT = 1;
+const double MAXRS = 1;
+
+"q1" : <<1>> (R{"rt1"} <= MAXRT [ S ] & R{"ru1"} <= MAXRS [ S ])
+
+"qall" : comp("q1")
+
