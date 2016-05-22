@@ -22,7 +22,7 @@
 	<classpathentry kind="lib" path="nailgun-server.jar"/>
 	<classpathentry kind="lib" path="ppl_java.jar"/>
 	<classpathentry kind="lib" path="prism.jar"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_66"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/java-1.8.0-openjdk-1.8.0.77-1.b03.fc23.x86_64"/>
 	<classpathentry kind="lib" path="pepa.zip"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,7 +1,9 @@
-const double MAXRT = 1;
-const double MAXRS = 1;
+const int MAXRT = 5;
+const int MAXRS = 5;
 
-"q1" : <<1>> (R{"rt1"} <= MAXRT [ S ] & R{"ru1"} <= MAXRS [ S ])
+"q1" : <<1>> ((R{"rt_s1"}<=MAXRT[S] & R{"rt_s2"}<=MAXRT[S]))
 
-"qall" : comp("q1")
+"qall" : comp("q1", "q2")
+
+"q2" : <<1>> ((R{"ru_s1"}<=MAXRS[S] & R{"ru_s2"}<=MAXRS[S]))
 
