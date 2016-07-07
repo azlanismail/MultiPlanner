@@ -5,6 +5,11 @@
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/home/azlani/Downloads/prism-games-2.0.beta2-linux64/lib"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="src" path="lib">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/home/azlan/Downloads/prism-games-2.0.beta3-linux64/lib"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="src" path="ppl">
 		<attributes>
 			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="/lib64/ppl"/>

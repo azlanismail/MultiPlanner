@@ -16,6 +16,11 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>lib</name>
+			<type>2</type>
+			<location>/home/azlan/Downloads/prism-games-2.0.beta3-linux64/lib</location>
+		</link>
+		<link>
 			<name>ppl</name>
 			<type>2</type>
 			<location>/usr/lib64/ppl</location>

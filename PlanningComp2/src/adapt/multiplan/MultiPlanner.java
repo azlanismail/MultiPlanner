@@ -49,7 +49,7 @@ public class MultiPlanner {
 	String logPath = "./myLog.txt";
 	String laptopPath = "C:/Users/USER/git/MultiPlanner/PlanningComp2/";
 	String desktopPath = "H:/git/MultiPlanner/PlanningComp2/";
-	String linuxPath = "/home/azlani/git/MultiPlanner/PlanningComp2/";
+	String linuxPath = "/home/azlan/git/MultiPlanner/PlanningComp2/";
 	String mainPath = linuxPath;
 	String modelPath = mainPath+"Prismfiles/teleAssistanceAdapt_v5.smg";
 	String propPath = mainPath+"Prismfiles/propTeleAssistanceMulti.props";
